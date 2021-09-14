@@ -1,8 +1,8 @@
 # TF-IDF 적용 모듈
--------------------
+
 ## How to use
 * Model, Tokenizer, Config 가져오기
-```
+```python
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 
 #KoELECTRA, mBERT 공통
@@ -17,6 +17,6 @@ model = AutoModelForQuestionAnswering.from_pretrained(model_name_or_path, config
 ```
 
 * tfidf.py 사용법
-```
+```python
 python tfidf.py --model_name_or_path mtr0930/i-manual_tokenizer_updated --data_path ./paragraph.json
 ```
