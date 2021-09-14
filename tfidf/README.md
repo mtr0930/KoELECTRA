@@ -20,3 +20,10 @@ model = AutoModelForQuestionAnswering.from_pretrained(model_name_or_path, config
 ```python
 python tfidf.py --model_name_or_path mtr0930/i-manual_tokenizer_updated --data_path ./paragraph.json
 ```
+## 기존 모듈과의 차이점
+* data_path로 i-manual data에서 paragraph만 추출한 json파일을 넣어주어야함 -> paragraph.json
+* 기존의 모델에서 특수 토큰 추가한 tokenizer로 update -> mtr0930/i-manual_tokenizer_updated
+
+## Updated Tokenizer
+* i-manual 특수 토큰 추가해서 Tokenizer 학습시킨 버전
+https://huggingface.co/mtr0930/i-manual_tokenizer_updated
