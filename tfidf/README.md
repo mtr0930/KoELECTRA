@@ -33,9 +33,11 @@ python tfidf.py --model_name_or_path mtr0930/i-manual_tokenizer_updated --data_p
     # QA 를 통한 결과(answer)를 반환해줌.
     predicted_answer = qa.get_answer(dataset=contexts, question="전략은 무엇인가요?")
 ```
+
 ## 기존 모듈과의 차이점
 * data_path로 i-manual data에서 paragraph만 추출한 json파일을 넣어주어야함 -> paragraph.json
 * 기존의 모델에서 특수 토큰 추가한 tokenizer로 update -> mtr0930/i-manual_tokenizer_updated
+
 
 ## Updated Tokenizer
 https://huggingface.co/mtr0930/i-manual_tokenizer_updated
