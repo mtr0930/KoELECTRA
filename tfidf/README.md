@@ -25,5 +25,4 @@ python tfidf.py --model_name_or_path mtr0930/i-manual_tokenizer_updated --data_p
 * 기존의 모델에서 특수 토큰 추가한 tokenizer로 update -> mtr0930/i-manual_tokenizer_updated
 
 ## Updated Tokenizer
-* i-manual 특수 토큰 추가해서 Tokenizer 학습시킨 버전
 https://huggingface.co/mtr0930/i-manual_tokenizer_updated
