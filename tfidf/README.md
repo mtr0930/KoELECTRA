@@ -22,7 +22,8 @@ python tfidf.py --model_name_or_path mtr0930/i-manual_tokenizer_updated --data_p
 ```
 
 * 질문 넣는 법
-***qa.get_answer()함수의 question 변수에 입력으로 들어온 질문을 넣어주면됌.***
+
+**qa.get_answer()함수의 question 변수에 입력으로 들어온 질문을 넣어주면됌.**
 
 ```python
     # qa 객체 선언
