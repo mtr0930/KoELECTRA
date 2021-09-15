@@ -99,15 +99,21 @@ class Tfidf_QA_Module():
 
     def dummy(self, doc):
         return doc
+    
     # 질문의 token 중 불용어 제거
-    def custom_tokenize(self, tokens):
+        def custom_tokenize(self, tokens):
+        question_inputs = self.tokenizer(tokens, add_special_tokens=False, return_tensors="pt")
+        question_input_ids = question_inputs["input_ids"].tolist()[0]
+        question_tokens = self.tokenizer.convert_ids_to_tokens(question_input_ids)
+
         my_text_tokens = []
 
-        for tmp_token in tokens:
-            if tmp_token != '.' and tmp_token != ',' and tmp_token != "'" and tmp_token != '?' and tmp_token != '!':
+        for tmp_token in question_tokens:
+            if tmp_token != '.' and tmp_token != ',' and tmp_token != "'" and tmp_token != '?':
                 my_text_tokens.append(tmp_token)
 
         return my_text_tokens
+    
     # 126개의 paragraph 들과 질문을 입력으로 받아서
     # tf-idf score 가 가장 높은 paragraph 를 return 해줌.
     def tfidf(self, paragraphs, question):
