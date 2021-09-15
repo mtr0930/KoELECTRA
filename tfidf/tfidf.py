@@ -101,7 +101,7 @@ class Tfidf_QA_Module():
         return doc
     
     # 질문의 token 중 불용어 제거
-        def custom_tokenize(self, tokens):
+    def custom_tokenize(self, tokens):
         question_inputs = self.tokenizer(tokens, add_special_tokens=False, return_tensors="pt")
         question_input_ids = question_inputs["input_ids"].tolist()[0]
         question_tokens = self.tokenizer.convert_ids_to_tokens(question_input_ids)
