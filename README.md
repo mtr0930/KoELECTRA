@@ -19,3 +19,5 @@ Ubuntu 20.04 LTS gtx2080ti * 4
 
 ## 데이터 예시
 <img src="./img/strategy_questions.PNG">
+
+데이터를 구글 스프레드 시트에 정리하고 python 코드를 작성해서 json파일 형식으로 변환해서 학습에 사용하였다.
