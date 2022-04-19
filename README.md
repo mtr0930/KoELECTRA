@@ -21,3 +21,7 @@ Ubuntu 20.04 LTS gtx2080ti * 4
 <img src="./img/strategy_questions.PNG">
 
 **데이터를 구글 스프레드 시트에 정리하고 python 코드를 작성해서 json파일 형식으로 변환해서 학습에 사용하였다.**
+
+## 마스터봇 2차 프로젝트에서 담당한 업무
+- KoELECTRA 모델 학습 및 개발(학습 데이터와 변형된 질문으로 evaluation)
+- 
