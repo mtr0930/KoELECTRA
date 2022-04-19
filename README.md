@@ -5,14 +5,14 @@ KoELECTRA 모델은 KorQuAD v1.0 형식에 맞춰서 학습이 진행되므로 �
 사용한 데이터의 수는 데이터 통합 전 502개의 질문과 126개의 문단을 사용했고 데이터 통합 후에는 61개의 문단을 사용해서 학습시켰다.
 
 ## Requirements
-
+```
   torch==1.6.0
   transformers==3.5.1
   seqeval
   fastprogress
   attrdict
-  
+``` 
 ## 개발 환경
-
+```
   Ubuntu 20.04 LTS gtx2080ti * 4
-  
+``` 
