@@ -18,4 +18,4 @@ Ubuntu 20.04 LTS gtx2080ti * 4
 ``` 
 
 ## 데이터 예시
-<img src="./img/strategy_questions.PNG" width=50%>
+<img src="./img/strategy_questions.PNG">
