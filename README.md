@@ -24,4 +24,5 @@ Ubuntu 20.04 LTS gtx2080ti * 4
 
 ## 마스터봇 2차 프로젝트에서 담당한 업무
 - KoELECTRA 모델 학습 및 개발(학습 데이터와 변형된 질문으로 evaluation)
-- 
+- 토큰화 라이브러리 비교 Mecab 등
+- TF-IDF 분류 방법 적용
