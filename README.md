@@ -26,3 +26,6 @@ Ubuntu 20.04 LTS gtx2080ti * 4
 - KoELECTRA 모델 학습 및 개발(학습 데이터와 변형된 질문으로 evaluation)
 - 토큰화 라이브러리 비교 Mecab 등
 - TF-IDF 분류 방법 적용
+
+## 연구 과정 기록
+<https://www.notion.so/QA-753758f2575945389f4e840ce1b1a79f>
